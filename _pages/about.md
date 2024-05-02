@@ -16,17 +16,17 @@ redirect_from:
 # 🗞️ Recent News:
 
 <div style="overflow-y:scroll; border: none;">
-  <table>
-    <tr>
+  <table style="border: none;">
+    <tr style="border: none;">
       <td>Apr. 2024</td>
       <td>-</td>
       <td>Graduate from ITS with cum laude 🎓🎉!   </td>
     </tr>
-    <tr>
+    <tr style="border: none;">
       <td>Apr. 2024</td>
       <td>-</td>
       <td> I'm excited to share that I will be pursuing a PhD at Virginia Tech under [Prof. Huaicheng Li](https://huaicheng.github.io/) </td>
-    <tr>
+    </tr>
   </table>
 </div>
 
