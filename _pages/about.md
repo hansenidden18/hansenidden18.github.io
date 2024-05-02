@@ -14,10 +14,10 @@ redirect_from:
 
 
 # 🗞️ Recent News:
-|                  |     |                                                              |
-|       ---        | --- | ---                                                          |
-|       Apr. 2024  |  -  | Graduate from ITS with cum laude 🎓🎉!                       |
-|       Feb. 2024  |  -  | I'm escited to share that I will be pursuing a PhD at Virginia Tech under [Prof. Huaicheng Li](https://huaicheng.github.io/)                   |
+|              |     |                                                                                                                              |
+| ------------ | --- | ---------------------------------------------------------------------------------------------------------------------------- |
+|   Apr. 2024  |  -  | Graduate from ITS with cum laude 🎓🎉!                                                                                      |
+|   Feb. 2024  |  -  | I'm escited to share that I will be pursuing a PhD at Virginia Tech under [Prof. Huaicheng Li](https://huaicheng.github.io/) |
 <!-- | [Doe Doe](#)     |  -  | Description of the item in the list                          | -->
 
 <!-- Getting started
