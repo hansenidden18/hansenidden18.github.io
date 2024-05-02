@@ -15,17 +15,18 @@ redirect_from:
 
 # 🗞️ Recent News:
 
-<div style="overflow-y:scroll;">
+<div style="overflow-y:scroll; border: none;">
   <table>
     <tr>
-      <th>Apr. 2024</th>
-      <th> </th>
-      <th>Graduate from ITS with cum laude 🎓🎉!   </th>
+      <td>Apr. 2024</td>
+      <td>-</td>
+      <td>Graduate from ITS with cum laude 🎓🎉!   </td>
     </tr>
     <tr>
-      <th>Apr. 2024</th>
-      <th></th>
-      <th> I'm excited to share that I will be pursuing a PhD at Virginia Tech under [Prof. Huaicheng Li](https://huaicheng.github.io/) </th>
+      <td>Apr. 2024</td>
+      <td>-</td>
+      <td> I'm excited to share that I will be pursuing a PhD at Virginia Tech under [Prof. Huaicheng Li](https://huaicheng.github.io/) </td>
+    <tr>
   </table>
 </div>
 
