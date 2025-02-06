@@ -37,8 +37,10 @@ redirect_from:
 
 # 🎓 Teaching
 
-* <a href="https://courses.cs.vt.edu/cs3214/fall2024">CS3214 Computer Systems</a> | Teaching Assistant | Fall 2024
-* <a href="https://courses.cs.vt.edu/cs3214/spring2025">CS3214 Computer Systems</a> | Teaching Assistant | Spring 2025
+* <a href="https://courses.cs.vt.edu/cs3214/fall2024">CS3214 Computer Systems</a> 
+  * Teaching Assistant | Fall 2024
+* <a href="https://courses.cs.vt.edu/cs3214/spring2025">CS3214 Computer Systems</a> 
+  * Teaching Assistant | Spring 2025
 
 <!-- | [Doe Doe](#)     |  -  | Description of the item in the list                          | -->
 
