@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-👨🏻‍💻 I am first year CS Phd Student at Virginia Tech. I received a B.Informatics degree from <a href="https://www.its.ac.id/">Sepuluh Nopember Institute of Technology (ITS)</a> with cum laude distinction. My unmatched perspicacity coupled with sheer indefatigability makes me love research with high curiosity 😉. 
+👨🏻‍💻 I am first year CS Phd Student at <a href="https://cs.vt.edu/">Virginia Tech</a>. I received a B.Informatics degree from <a href="https://www.its.ac.id/">Sepuluh Nopember Institute of Technology (ITS)</a> with cum laude distinction. My unmatched perspicacity coupled with sheer indefatigability makes me love research with high curiosity 😉. 
 
 🔬 I have broad interests in Storage Systems, Memory Systems, Systems Architecture, and Distributed System
 
@@ -34,6 +34,11 @@ redirect_from:
     </tr>
   </table>
 </div>
+
+# 🎓 Teaching
+
+* <a href="https://courses.cs.vt.edu/cs3214/fall2024">CS3214 Computer Systems</a> | Teaching Assistant | Fall 2024
+* <a href="https://courses.cs.vt.edu/cs3214/spring2025">CS3214 Computer Systems</a> | Teaching Assistant | Spring 2025
 
 <!-- | [Doe Doe](#)     |  -  | Description of the item in the list                          | -->
 
