@@ -10,7 +10,7 @@ redirect_from:
 
 👨🏻‍💻 I am first year CS Phd Student at <a href="https://cs.vt.edu/">Virginia Tech</a>. I received a B.Informatics degree from <a href="https://www.its.ac.id/">Sepuluh Nopember Institute of Technology (ITS)</a> with cum laude distinction. My unmatched perspicacity coupled with sheer indefatigability makes me love research with high curiosity 😉. 
 
-🔬 I have broad interests in Storage Systems, Memory Systems, Systems Architecture, and Distributed System
+🔬 I have broad interests in Storage Systems, Memory Systems, Systems Architecture.
 
 
 # 🗞️ Recent News:
@@ -25,22 +25,22 @@ redirect_from:
     <tr style="border: none;">
       <td style="border: none;">Apr. 2024</td>
       <td style="border: none;">-</td>
-      <td style="border: none;">Graduate from ITS with cum laude 🎓🎉!   </td>
+      <td style="border: none;"> I'm excited to share that I will be pursuing a PhD at Virginia Tech under <a href="https://huaicheng.github.io/">Prof. Huaicheng Li</a> </td>
     </tr>
     <tr style="border: none;">
       <td style="border: none;">Apr. 2024</td>
       <td style="border: none;">-</td>
-      <td style="border: none;"> I'm excited to share that I will be pursuing a PhD at Virginia Tech under <a href="https://huaicheng.github.io/">Prof. Huaicheng Li</a> </td>
+      <td style="border: none;">Graduate from ITS with cum laude 🎓🎉!   </td>
     </tr>
   </table>
 </div>
 
 # 🎓 Teaching
 
-* <a href="https://courses.cs.vt.edu/cs3214/fall2024">CS3214 Computer Systems</a> 
-  * Teaching Assistant | Fall 2024
 * <a href="https://courses.cs.vt.edu/cs3214/spring2025">CS3214 Computer Systems</a> 
-  * Teaching Assistant | Spring 2025
+  * Teaching Assistant \| Spring 2025
+* <a href="https://courses.cs.vt.edu/cs3214/fall2024">CS3214 Computer Systems</a> 
+  * Teaching Assistant \| Fall 2024
 
 <!-- | [Doe Doe](#)     |  -  | Description of the item in the list                          | -->
 
