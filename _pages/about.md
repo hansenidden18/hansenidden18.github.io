@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-👨🏻‍💻 I am first year CS Phd Student at <a href="https://cs.vt.edu/">Virginia Tech</a>. I received a B.Informatics degree from <a href="https://www.its.ac.id/">Sepuluh Nopember Institute of Technology (ITS)</a> with cum laude distinction. My unmatched perspicacity coupled with sheer indefatigability makes me love research with high curiosity 😉. 
+👨🏻‍💻 I am second year CS Phd Student at <a href="https://cs.vt.edu/">Virginia Tech</a>. I received a B.Informatics degree from <a href="https://www.its.ac.id/">Sepuluh Nopember Institute of Technology (ITS)</a> with cum laude distinction. My unmatched perspicacity coupled with sheer indefatigability makes me love research with high curiosity 😉. 
 
 🔬 I have broad interests in Storage Systems, Memory Systems, Systems Architecture.
 
@@ -17,6 +17,11 @@ redirect_from:
 
 <div style="max-height: 200px; overflow-y:auto; border: none;">
   <table style="border: none;">
+    <tr style="border: none;">
+      <td style="border: none;">Jul. 2025</td>
+      <td style="border: none;">-</td>
+      <td style="border: none;">Received travel grant for ATC'25 in Boston, MA 🚀!   </td>
+    </tr>
     <tr style="border: none;">
       <td style="border: none;">Aug. 2024</td>
       <td style="border: none;">-</td>
