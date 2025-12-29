@@ -18,6 +18,16 @@ redirect_from:
 <div style="max-height: 200px; overflow-y:auto; border: none;">
   <table style="border: none;">
     <tr style="border: none;">
+      <td style="border: none;">Nov. 2025</td>
+      <td style="border: none;">-</td>
+      <td style="border: none;">Cylon is accepted at the FAST'26 🎉!   </td>
+    </tr>
+    <tr style="border: none;">
+      <td style="border: none;">Nov. 2025</td>
+      <td style="border: none;">-</td>
+      <td style="border: none;">Pact is accepted at the ASPLOS'26 🎉!   </td>
+    </tr>
+    <tr style="border: none;">
       <td style="border: none;">Jul. 2025</td>
       <td style="border: none;">-</td>
       <td style="border: none;">Received travel grant for ATC'25 in Boston, MA 🚀!   </td>
@@ -39,6 +49,13 @@ redirect_from:
     </tr>
   </table>
 </div>
+
+# 📚 Publications
+
+|  |  |
+|---:|---|
+| **FAST'26** | **Cylon: Fast and Accurate Full-System Emulation of CXL-SSDs**<br/>Dongha Yoon\*, Hansen Idden\*, Jinshu Liu, Berkay Inceisci, Sam H. Noh, Huaicheng Li<br/><sub>\* Co-lead authors</sub><br/>_To appear_ |
+| **ASPLOS'26** | **PACT: Fine-Grained Online Criticality-Driven Memory Tiering**<br/>Hamid Hadian, Jinshu Liu\*, Hanchen Xu\*, Hansen Idden, Huaicheng Li<br/><sub>\* Equal contributions</sub><br/>_To appear_ |
 
 # 🎓 Teaching
 
