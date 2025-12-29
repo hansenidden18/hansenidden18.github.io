@@ -52,10 +52,28 @@ redirect_from:
 
 # 📚 Publications
 
-|  |  |
-|---:|---|
-| **FAST'26** | **Cylon: Fast and Accurate Full-System Emulation of CXL-SSDs**<br/>Dongha Yoon\*, Hansen Idden\*, Jinshu Liu, Berkay Inceisci, Sam H. Noh, Huaicheng Li<br/><sub>\* Co-lead authors</sub><br/>_To appear_ |
-| **ASPLOS'26** | **PACT: Fine-Grained Online Criticality-Driven Memory Tiering**<br/>Hamid Hadian, Jinshu Liu\*, Hanchen Xu\*, Hansen Idden, Huaicheng Li<br/><sub>\* Equal contributions</sub><br/>_To appear_ |
+<table border="0" cellspacing="0" cellpadding="6">
+  <tbody>
+    <tr>
+      <td width="110" align="right" valign="top"><b>FAST ’26</b></td>
+      <td>
+        <b>Cylon: Fast and Accurate Full-System Emulation of CXL-SSDs</b><br/>
+        Dongha Yoon*, Hansen Idden*, Jinshu Liu, Berkay Inceisci, Sam H. Noh, Huaicheng Li<br/>
+        <sub>* Co-lead authors</sub><br/>
+        <i>To appear</i>
+      </td>
+    </tr>
+    <tr>
+      <td width="110" align="right" valign="top"><b>ASPLOS ’26</b></td>
+      <td>
+        <b>PACT: Fine-Grained Online Criticality-Driven Memory Tiering</b><br/>
+        Hamid Hadian, Jinshu Liu*, Hanchen Xu*, Hansen Idden, Huaicheng Li<br/>
+        <sub>* Equal contributions</sub><br/>
+        <i>To appear</i>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 # 🎓 Teaching
 
