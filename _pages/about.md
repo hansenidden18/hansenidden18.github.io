@@ -52,7 +52,7 @@ redirect_from:
 
 # 📚 Publications
 
-<table border="0" cellspacing="0" cellpadding="6">
+<table class="pub-table" cellspacing="0" cellpadding="6">
   <tbody>
     <tr>
       <td width="110" align="right" valign="top"><b>FAST ’26</b></td>

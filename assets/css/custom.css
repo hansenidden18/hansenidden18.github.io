@@ -1,0 +1,5 @@
+table.pub-table,
+table.pub-table td,
+table.pub-table tr {
+  border: none !important;
+}
