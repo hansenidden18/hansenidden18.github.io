@@ -82,6 +82,13 @@ I have broad interests in **Storage Systems**, **Memory Systems**, and **Systems
   <li class="teaching-item">
     <span class="teaching-role">TA</span>
     <div class="teaching-details">
+      <div class="teaching-course">CS5264 Linux Kernel Programming</div>
+      <div class="teaching-meta">Spring 2026</div>
+    </div>
+  </li>
+  <li class="teaching-item">
+    <span class="teaching-role">TA</span>
+    <div class="teaching-details">
       <div class="teaching-course"><a href="https://courses.cs.vt.edu/cs3214/spring2025">CS3214 Computer Systems</a></div>
       <div class="teaching-meta">Spring 2025</div>
     </div>
