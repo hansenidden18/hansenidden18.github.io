@@ -74,6 +74,23 @@ const teaching = [
   },
 ];
 
+function highlightName(authors: string, name: string = "Hansen Idden") {
+  const parts = authors.split(name);
+  if (parts.length === 1) return <>{authors}</>;
+  return (
+    <>
+      {parts.map((part, i) => (
+        <span key={i}>
+          {part}
+          {i < parts.length - 1 && (
+            <strong className="text-foreground font-semibold">{name}</strong>
+          )}
+        </span>
+      ))}
+    </>
+  );
+}
+
 function scrollToSection(id: string) {
   if (id === "cv") {
     window.open("/files/Resume_Hansen_2025.pdf", "_blank");
@@ -109,11 +126,11 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row items-start gap-8">
             <div className="flex-shrink-0">
               <Image
-                src="/images/prof-pic-2.jpg"
+                src="/images/profile.jpg"
                 alt="Hansen Idden"
                 width={140}
                 height={140}
-                className="rounded-full border-2 border-border shadow-sm"
+                className="rounded-full border-2 border-border shadow-sm object-cover"
               />
             </div>
             <div className="flex-1">
@@ -223,7 +240,7 @@ export default function Home() {
                       {pub.title}
                     </div>
                     <div className="mt-1 text-xs text-muted-foreground leading-relaxed">
-                      {pub.authors}
+                      {highlightName(pub.authors)}
                       <br />
                       <span className="text-xs italic opacity-75">{pub.note}</span>
                     </div>
