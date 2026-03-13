@@ -13,6 +13,7 @@ const navTabs = [
   { id: "publications", label: "Publications" },
   { id: "talks", label: "Talks" },
   { id: "teaching", label: "Teaching" },
+  { id: "cv", label: "CV" },
 ];
 
 const news = [
@@ -36,7 +37,6 @@ const publications = [
     title: "Cylon: Fast and Accurate Full-System Emulation of CXL-SSDs",
     authors: "Dongha Yoon*, Hansen Idden*, Jinshu Liu, Berkay Inceisci, Sam H. Noh, Huaicheng Li",
     note: "* Co-lead authors",
-    status: "To appear",
     paperUrl: "https://www.usenix.org/system/files/fast26-yoon.pdf",
   },
   {
@@ -75,6 +75,10 @@ const teaching = [
 ];
 
 function scrollToSection(id: string) {
+  if (id === "cv") {
+    window.open("/files/Resume_Hansen_2025.pdf", "_blank");
+    return;
+  }
   const el = document.getElementById(id);
   if (el) {
     el.scrollIntoView({ behavior: "smooth" });
@@ -114,13 +118,13 @@ export default function Home() {
             </div>
             <div className="flex-1">
               <BlurFade delay={0.25} inView>
-                <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-                  Hello there, I&apos;m Hansen!
-                </h1>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
+                  Hello there 👋,
+                </h2>
               </BlurFade>
-              <BlurFade delay={0.5} inView>
-                <span className="mt-2 block text-xl text-muted-foreground tracking-tight">
-                  CS PhD Student at Virginia Tech
+              <BlurFade delay={0.25 * 2} inView>
+                <span className="text-xl text-pretty tracking-tighter sm:text-3xl xl:text-4xl/none">
+                  I&apos;m Hansen
                 </span>
               </BlurFade>
               <BlurFade delay={0.75} inView>
@@ -143,7 +147,9 @@ export default function Home() {
                   >
                     Sepuluh Nopember Institute of Technology (ITS)
                   </a>{" "}
-                  with cum laude distinction.
+                  with cum laude distinction. My unmatched perspicacity coupled
+                  with sheer indefatigability makes me love research with high
+                  curiosity.
                 </p>
               </BlurFade>
               <BlurFade delay={1.0} inView>
