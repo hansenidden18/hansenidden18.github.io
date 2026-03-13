@@ -123,27 +123,29 @@ export default function Home() {
       <main className="flex-1 container mx-auto px-4 py-16 max-w-3xl">
         {/* Hero */}
         <section id="home" className="mb-20">
-          <div className="flex flex-col sm:flex-row items-start gap-8">
-            <div className="flex-shrink-0">
+          <BlurFade delay={0.15} inView>
+            <div className="relative w-full overflow-hidden rounded-xl border border-border shadow-md mb-10">
               <Image
                 src="/images/profile.jpg"
                 alt="Hansen Idden"
-                width={140}
-                height={140}
-                className="rounded-full border-2 border-border shadow-sm object-cover"
+                width={768}
+                height={384}
+                className="w-full h-96 object-cover object-center"
+                priority
               />
-            </div>
-            <div className="flex-1">
-              <BlurFade delay={0.25} inView>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
+              <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent" />
+              <div className="absolute bottom-0 left-0 p-6">
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-white drop-shadow-lg">
                   Hello there 👋,
                 </h2>
-              </BlurFade>
-              <BlurFade delay={0.25 * 2} inView>
-                <span className="text-xl text-pretty tracking-tighter sm:text-3xl xl:text-4xl/none">
+                <span className="text-xl text-white/90 tracking-tighter sm:text-3xl drop-shadow-lg">
                   I&apos;m Hansen
                 </span>
-              </BlurFade>
+              </div>
+            </div>
+          </BlurFade>
+          <div>
+
               <BlurFade delay={0.75} inView>
                 <p className="mt-4 text-muted-foreground leading-relaxed">
                   I am a second year CS PhD Student at{" "}
@@ -177,7 +179,6 @@ export default function Home() {
                   <strong className="text-foreground">Systems Architecture</strong>.
                 </p>
               </BlurFade>
-            </div>
           </div>
         </section>
 
