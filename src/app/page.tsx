@@ -31,7 +31,14 @@ const news = [
   { date: "Apr. 2024", content: "Graduated from ITS with cum laude!" },
 ];
 
-const publications = [
+const publications: {
+  venue: string;
+  title: string;
+  authors: string;
+  note: string;
+  paperUrl?: string;
+  status?: string;
+}[] = [
   {
     venue: "FAST '26",
     title: "Cylon: Fast and Accurate Full-System Emulation of CXL-SSDs",
@@ -245,9 +252,11 @@ export default function Home() {
                       <br />
                       <span className="text-xs italic opacity-75">{pub.note}</span>
                     </div>
-                    <div className="mt-1 text-xs text-muted-foreground italic">
-                      {pub.status}
-                    </div>
+                    {pub.status && (
+                      <div className="mt-1 text-xs text-muted-foreground italic">
+                        {pub.status}
+                      </div>
+                    )}
                     {pub.paperUrl && (
                       <div className="mt-3">
                         <a
