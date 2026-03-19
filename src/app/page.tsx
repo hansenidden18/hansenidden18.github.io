@@ -44,7 +44,7 @@ const publications = [
     title: "PACT: Fine-Grained Online Criticality-Driven Memory Tiering",
     authors: "Hamid Hadian, Jinshu Liu*, Hanchen Xu*, Hansen Idden, Huaicheng Li",
     note: "* Equal contributions",
-    status: "To appear",
+    paperUrl: "/files/asplos26-pact.pdf",
   },
 ];
 
