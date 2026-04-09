@@ -18,6 +18,7 @@ const navTabs = [
 ];
 
 const news = [
+  { date: "Mar. 2026", content: "PACT received Best Paper Award Honorable Mention at ASPLOS'26! 🎉" },
   { date: "Feb. 2026", content: "Received travel grant for FAST'26 in Santa Clara, CA!" },
   { date: "Nov. 2025", content: "Cylon is accepted at FAST'26!" },
   { date: "Nov. 2025", content: "PACT is accepted at ASPLOS'26!" },
