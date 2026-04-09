@@ -12,6 +12,7 @@ const navTabs = [
   { id: "news", label: "News" },
   { id: "publications", label: "Publications" },
   { id: "talks", label: "Talks" },
+  { id: "awards", label: "Awards" },
   { id: "teaching", label: "Teaching" },
   { id: "cv", label: "CV" },
 ];
@@ -61,7 +62,7 @@ const talks = [
     venue: "FAST '26",
     location: "Santa Clara, CA",
     date: "Feb. 2026",
-    videoUrl: "", // TODO: Update with YouTube link when available
+    videoUrl: "https://www.youtube.com/watch?v=0f2KKLFTMxs&list=PLbRoZ5Rrl5ld5WyFj_doGpwf5jevliyHc&index=18",
   },
 ];
 
@@ -317,6 +318,39 @@ export default function Home() {
                 </div>
               </BlurFade>
             ))}
+          </div>
+        </section>
+
+        {/* Selected Honors & Awards */}
+        <section id="awards" className="mb-16">
+          <BlurFade delay={0.1} inView>
+            <h2 className="text-2xl font-bold tracking-tight mb-6 pb-3 border-b-2 border-primary">
+              Selected Honors & Awards
+            </h2>
+          </BlurFade>
+          <div className="space-y-4">
+            <BlurFade delay={0.2} inView>
+              <div className="flex flex-col sm:flex-row gap-4 p-5 rounded-lg border bg-secondary/30 hover:shadow-md transition-all">
+                <div className="flex-shrink-0 sm:min-w-[90px] sm:text-right sm:border-r sm:border-border sm:pr-4">
+                  <span className="inline-block text-xs font-bold text-primary bg-primary/10 px-2.5 py-1 rounded-md">
+                    2026
+                  </span>
+                </div>
+                <div className="flex-1">
+                  <div className="font-semibold text-sm text-foreground leading-snug">
+                    ASPLOS&apos;26 Best Paper Award Honorable Mention
+                  </div>
+                  <div className="mt-1 text-xs text-muted-foreground leading-relaxed">
+                    &ldquo;<a
+                      href="/files/asplos26-pact.pdf"
+                      className="text-primary hover:underline"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >PACT: A Criticality-First Design for Tiered Memory</a>&rdquo;
+                  </div>
+                </div>
+              </div>
+            </BlurFade>
           </div>
         </section>
 
