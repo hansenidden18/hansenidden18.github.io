@@ -18,6 +18,7 @@ const navTabs = [
 ];
 
 const news = [
+  { date: "May 2026", content: "Received the Pratt Fellowship for academic year 2026-2027!" },
   { date: "Mar. 2026", content: "PACT received Best Paper Award Honorable Mention at ASPLOS'26! 🎉" },
   { date: "Feb. 2026", content: "Received travel grant for FAST'26 in Santa Clara, CA!" },
   { date: "Nov. 2025", content: "Cylon is accepted at FAST'26!" },
@@ -331,6 +332,23 @@ export default function Home() {
           </BlurFade>
           <div className="space-y-4">
             <BlurFade delay={0.2} inView>
+              <div className="flex flex-col sm:flex-row gap-4 p-5 rounded-lg border bg-secondary/30 hover:shadow-md transition-all">
+                <div className="flex-shrink-0 sm:min-w-[90px] sm:text-right sm:border-r sm:border-border sm:pr-4">
+                  <span className="inline-block text-xs font-bold text-primary bg-primary/10 px-2.5 py-1 rounded-md">
+                    2026-2027
+                  </span>
+                </div>
+                <div className="flex-1">
+                  <div className="font-semibold text-sm text-foreground leading-snug">
+                    Pratt Fellowship
+                  </div>
+                  <div className="mt-1 text-xs text-muted-foreground leading-relaxed">
+                    Awarded for academic year 2026-2027, Virginia Tech
+                  </div>
+                </div>
+              </div>
+            </BlurFade>
+            <BlurFade delay={0.3} inView>
               <div className="flex flex-col sm:flex-row gap-4 p-5 rounded-lg border bg-secondary/30 hover:shadow-md transition-all">
                 <div className="flex-shrink-0 sm:min-w-[90px] sm:text-right sm:border-r sm:border-border sm:pr-4">
                   <span className="inline-block text-xs font-bold text-primary bg-primary/10 px-2.5 py-1 rounded-md">
