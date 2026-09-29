@@ -61,6 +61,12 @@ const publications: {
 const talks = [
   {
     title: "Cylon: Fast and Accurate Full-System Emulation of CXL-SSDs",
+    venue: "SNIA SDC '26",
+    location: "Santa Clara, CA",
+    date: "Sep. 2026",
+  },
+  {
+    title: "Cylon: Fast and Accurate Full-System Emulation of CXL-SSDs",
     venue: "FAST '26",
     location: "Santa Clara, CA",
     date: "Feb. 2026",
@@ -158,7 +164,7 @@ export default function Home() {
 
               <BlurFade delay={0.75} inView>
                 <p className="mt-4 text-muted-foreground leading-relaxed">
-                  I am a second year CS PhD Student at{" "}
+                  I am a third year CS PhD Student at{" "}
                   <a
                     href="https://cs.vt.edu/"
                     className="text-primary hover:underline"
@@ -187,6 +193,9 @@ export default function Home() {
                   <strong className="text-foreground">Storage Systems</strong>,{" "}
                   <strong className="text-foreground">Memory Systems</strong>, and{" "}
                   <strong className="text-foreground">Systems Architecture</strong>.
+                  I focus on understanding how CXL-SSDs affect the behavior of
+                  applications and exploiting those insights to improve the
+                  performance of the systems.
                 </p>
               </BlurFade>
           </div>
