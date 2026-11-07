@@ -123,45 +123,70 @@ export default function Home() {
     <div className="min-h-screen flex flex-col">
       {/* Navigation */}
       <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-sm border-b">
-        <div className="container mx-auto px-4 py-3 flex items-center justify-between">
+        <div className="container mx-auto grid grid-cols-[1fr_auto] items-center gap-x-3 px-4 py-3 md:flex md:justify-between">
           <span className="font-bold text-lg tracking-tight">Hansen Idden</span>
-          <div className="flex items-center gap-2">
+          <nav aria-label="Main navigation" className="col-span-2 row-start-2 overflow-x-auto md:ml-auto">
             <AnimatedTabs
               tabs={navTabs}
               onChange={(tabId) => scrollToSection(tabId)}
             />
+          </nav>
+          <div className="col-start-2 row-start-1">
             <ThemeToggle />
           </div>
         </div>
       </header>
 
-      {/* Main Content */}
-      <main className="flex-1 container mx-auto px-4 py-16 max-w-3xl">
-        {/* Hero */}
-        <section id="home" className="mb-20">
-          <BlurFade delay={0.15} inView>
-            <div className="relative w-full overflow-hidden rounded-xl border border-border shadow-md mb-10">
-              <Image
-                src="/images/profile.jpg"
-                alt="Hansen Idden"
-                width={768}
-                height={384}
-                className="w-full h-96 object-cover object-center"
-                priority
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent" />
-              <div className="absolute bottom-0 left-0 p-6">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-white drop-shadow-lg">
-                  Hello there 👋,
-                </h2>
-                <span className="text-xl text-white/90 tracking-tighter sm:text-3xl drop-shadow-lg">
-                  I&apos;m Hansen
-                </span>
-              </div>
+      <main className="flex-1">
+        <section id="home" className="research-hero" aria-labelledby="hero-name">
+          <div className="research-hero__inner">
+            <svg
+              className="research-hero__backdrop"
+              viewBox="0 0 1160 180"
+              aria-hidden="true"
+            >
+              <defs>
+                <linearGradient id="hero-type" x2="0%" y2="100%">
+                  <stop stopColor="#ff754b" />
+                  <stop offset=".52" stopColor="#b6341e" />
+                  <stop offset="1" stopColor="#2e1112" />
+                </linearGradient>
+              </defs>
+              <text x="2" y="149" textLength="1156" lengthAdjust="spacingAndGlyphs">
+                SYSTEMS RESEARCHER
+              </text>
+            </svg>
+            <Image
+              src="/images/profile-cutout.webp"
+              alt="Portrait of Hansen Idden"
+              width={674}
+              height={1200}
+              className="research-hero__portrait"
+              priority
+            />
+            <div className="research-hero__intro">
+              <p className="research-hero__greeting">Hello, I&apos;m</p>
+              <h1 id="hero-name">Hansen <br />Idden<span>.</span></h1>
+              <p className="research-hero__role">Systems Researcher</p>
+              <p className="research-hero__summary">
+                I&apos;m a CS PhD student at Virginia Tech studying how CXL-SSDs
+                affect application performance.
+              </p>
+              <a className="research-hero__link" href="#publications">
+                View publications <span aria-hidden="true">↗</span>
+              </a>
             </div>
-          </BlurFade>
-          <div>
+            <ul className="research-hero__topics" aria-label="Research areas">
+              <li>Storage systems</li>
+              <li>Memory systems</li>
+              <li>Systems architecture</li>
+            </ul>
+          </div>
+        </section>
 
+        <div className="container mx-auto max-w-3xl px-4 py-12 sm:py-16">
+          <section className="mb-16" aria-labelledby="about-heading">
+            <h2 id="about-heading" className="text-2xl font-bold tracking-tight">About</h2>
               <BlurFade delay={0.75} inView>
                 <p className="mt-4 text-muted-foreground leading-relaxed">
                   I am a third year CS PhD Student at{" "}
@@ -198,8 +223,7 @@ export default function Home() {
                   performance of the systems.
                 </p>
               </BlurFade>
-          </div>
-        </section>
+          </section>
 
         {/* News */}
         <section id="news" className="mb-16">
@@ -418,6 +442,7 @@ export default function Home() {
             ))}
           </div>
         </section>
+        </div>
       </main>
 
       {/* Footer */}
