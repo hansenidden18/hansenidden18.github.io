@@ -147,9 +147,8 @@ export default function Home() {
             >
               <defs>
                 <linearGradient id="hero-type" x2="0%" y2="100%">
-                  <stop stopColor="#ff754b" />
-                  <stop offset=".52" stopColor="#b6341e" />
-                  <stop offset="1" stopColor="#2e1112" />
+                  <stop stopColor="var(--hero-type-start)" />
+                  <stop offset="1" stopColor="var(--hero-type-end)" />
                 </linearGradient>
               </defs>
               <text x="2" y="149" textLength="1156" lengthAdjust="spacingAndGlyphs">
@@ -159,7 +158,7 @@ export default function Home() {
             <Image
               src="/images/profile-cutout.webp"
               alt="Portrait of Hansen Idden"
-              width={674}
+              width={708}
               height={1200}
               className="research-hero__portrait"
               priority
