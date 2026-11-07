@@ -155,14 +155,15 @@ export default function Home() {
                 SYSTEMS RESEARCHER
               </text>
             </svg>
-            <Image
-              src="/images/profile-cutout.webp"
-              alt="Portrait of Hansen Idden"
-              width={708}
-              height={1200}
-              className="research-hero__portrait"
-              priority
-            />
+            <div className="research-hero__portrait">
+              <Image
+                src="/images/profile-cutout.webp"
+                alt="Portrait of Hansen Idden"
+                width={708}
+                height={1200}
+                priority
+              />
+            </div>
             <div className="research-hero__intro">
               <p className="research-hero__greeting">Hello, I&apos;m</p>
               <h1 id="hero-name">Hansen <br />Idden<span>.</span></h1>
