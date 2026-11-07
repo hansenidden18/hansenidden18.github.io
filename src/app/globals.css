@@ -64,6 +64,7 @@ main section[id] {
 
 .research-hero {
   --hero-glow: #e7d9ff;
+  --hero-halo: transparent;
   --hero-type-start: #8b5cce;
   --hero-type-end: #d6bff7;
   --hero-accent: #6025ae;
@@ -79,6 +80,7 @@ main section[id] {
 
 .dark .research-hero {
   --hero-glow: #301950;
+  --hero-halo: #75549d;
   --hero-type-start: #aa78f5;
   --hero-type-end: #3a205c;
   --hero-accent: #c7a4ff;
@@ -90,6 +92,7 @@ main section[id] {
 }
 
 .research-hero__inner {
+  --hero-light-position: 62% 58%;
   position: relative;
   isolation: isolate;
   display: grid;
@@ -100,7 +103,12 @@ main section[id] {
   min-height: clamp(37rem, 56vw, 49rem);
   margin-inline: auto;
   padding: 15rem clamp(2rem, 5vw, 5rem) clamp(3rem, 6vw, 5rem);
-  background: radial-gradient(ellipse at 61% 52%, var(--hero-glow), transparent 59%);
+  background:
+    radial-gradient(
+      ellipse clamp(12rem, 28vw, 25rem) clamp(11rem, 30vw, 23rem)
+      at var(--hero-light-position), var(--hero-halo), transparent
+    ),
+    radial-gradient(ellipse at var(--hero-light-position), var(--hero-glow), transparent 59%);
 }
 
 .research-hero__backdrop {
@@ -124,6 +132,10 @@ main section[id] {
   max-width: none;
   transform: translateX(-50%);
   mask-image: linear-gradient(#000 68%, transparent 99%);
+}
+
+.dark .research-hero__portrait {
+  filter: brightness(1.1);
 }
 
 .research-hero__intro {
@@ -202,11 +214,11 @@ main section[id] {
 
 @media (max-width: 767px) {
   .research-hero__inner {
+    --hero-light-position: 50% 28%;
     min-height: 0;
     grid-template-columns: minmax(0, 1fr);
     padding: clamp(18rem, 66vw, 30rem) 1.5rem 2rem;
     gap: 1.5rem;
-    background: radial-gradient(ellipse at 50% 31%, var(--hero-glow), transparent 55%);
   }
 
   .research-hero__backdrop {
